@@ -33,9 +33,6 @@ export default function Page() {
           Contact
         </a>
       </div>
-      <div className="my-8">
-        <BlogPosts />
-      </div>
     </section>
   )
 }
