@@ -4,15 +4,35 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        My Portfolio
+        Juan Peláez
       </h1>
       <p className="mb-4">
-        {`I'm a Vim enthusiast and tab advocate, finding unmatched efficiency in
-        Vim's keystroke commands and tabs' flexibility for personal viewing
-        preferences. This extends to my support for static typing, where its
-        early error detection ensures cleaner code, and my preference for dark
-        mode, which eases long coding sessions by reducing eye strain.`}
+        {`Full Stack Developer and AI Specialist with expertise in Python, FastAPI, Next.js, and Google Cloud Platform. Specialized in automation, computer vision, and AI-powered solutions. Former Colombian Navy Captain with 15 years of operational leadership. Currently developing an anti-drone AI system using YOLOv5 and pursuing Google Cloud Machine Learning Engineering certification.`}
       </p>
+      <div className="my-8 flex gap-4">
+        <a 
+          href="https://github.com/Juanespape" 
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GitHub
+        </a>
+        <a 
+          href="https://github.com/Juanespape/seo-maps-analyzer" 
+          className="text-blue-600 hover:underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Featured Project
+        </a>
+        <a 
+          href="mailto:juan.pelaez.tech@gmail.com" 
+          className="text-blue-600 hover:underline"
+        >
+          Contact
+        </a>
+      </div>
       <div className="my-8">
         <BlogPosts />
       </div>
