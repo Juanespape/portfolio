@@ -6,20 +6,21 @@ import { Navbar } from './components/nav'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import Footer from './components/footer'
-import { baseUrl } from './sitemap'
+
+const baseUrl = 'https://juanpelaez.dev'
 
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'Juan Peláez - Full Stack Developer',
+    template: '%s | Juan Peláez',
   },
-  description: 'This is my portfolio.',
+  description: 'Full Stack Developer and AI Specialist specialized in Python, FastAPI, Next.js, and Google Cloud Platform.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Juan Peláez - Full Stack Developer',
+    description: 'Full Stack Developer and AI Specialist specialized in Python, FastAPI, Next.js, and Google Cloud Platform.',
     url: baseUrl,
-    siteName: 'My Portfolio',
+    siteName: 'Juan Peláez Portfolio',
     locale: 'en_US',
     type: 'website',
   },
